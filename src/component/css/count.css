@@ -1,0 +1,17 @@
+.NumOfRestro {
+    font-size: 2rem;
+    margin-top: 4%;
+}
+.Restro {
+    font-size: 1.8rem;
+
+    margin-top: 4%;
+}
+
+.horizontal-line:after {
+    content: " ";
+    display: block;
+    border-bottom: 0.5px solid #9E9E9E;
+}
+
+  
