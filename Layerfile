@@ -13,6 +13,7 @@ ENV NODE_OPTIONS=--max-old-space-size=8192
 
 COPY . .
 RUN npm install || true
+RUN npm install @fortawesome/fontawesome-svg-core --force
 RUN BACKGROUND npm start || python3 -m http.server 3000
 
 # Create a unique link to share the app in this runner.
